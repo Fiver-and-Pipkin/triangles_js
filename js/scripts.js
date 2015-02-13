@@ -7,7 +7,9 @@ var triangle = function(sideOne, sideTwo, sideThree){
   } else if (sides[2] >= sides[0] + sides[1])  {
     return "This is not a valid triangle";
   } else if (sides[0]===sides[1] && sides[1]===sides[2]) {
-    return "Equilateral";  
+    return "Equilateral";
+  } else if (sides[0]===sides[1]) {
+    return "Isosceles";
   } else return sides; {;
   }
 };

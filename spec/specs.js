@@ -11,5 +11,9 @@ describe('triangle', function(){
     expect(triangle(10, 10, 10)).to.equal("Equilateral")
   });
 
+  it("will determine if the side lengths entered create an isosceles triangle", function() {
+    expect(triangle(10, 10, 5)).to.equal("Isosceles")
+  });
+
 
 });
