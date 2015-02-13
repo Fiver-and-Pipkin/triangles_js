@@ -4,7 +4,7 @@ describe('triangle', function(){
   });
 
   it("will determine if the side lengths entered create a valid triangle", function() {
-    expect(triangle(1, 2, 3)).to.equal("This is not a valid triangle")
+    expect(triangle(2, 2, 8)).to.equal("This is not a valid triangle")
   });
 
   it("will determine if the side lengths entered create an equilateral triangle", function() {
