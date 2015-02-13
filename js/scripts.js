@@ -10,6 +10,8 @@ var triangle = function(sideOne, sideTwo, sideThree){
     return "Equilateral";
   } else if (sides[0]===sides[1]) {
     return "Isosceles";
+  } else if (sides[0]!=sides[1] && sides[0]!=sides[2]) {
+    return "Scalene";
   } else return sides; {;
   }
 };

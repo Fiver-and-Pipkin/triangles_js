@@ -15,5 +15,7 @@ describe('triangle', function(){
     expect(triangle(10, 10, 5)).to.equal("Isosceles")
   });
 
-
+  it("will determine if the side lengths entered create a scalene triangle", function() {
+    expect(triangle(28, 18, 39)).to.equal("Scalene")
+  });
 });
