@@ -1,0 +1,41 @@
+#results{
+  display:none;
+}
+
+HTML{
+  margin: 0px;
+  padding: 0px;
+  }
+
+BODY{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(public/img/triangle.png);
+  /*font-family: 'Cinzel Decorative', cursive;*/
+  font-size: 25px;
+  background-color:#C5D8D5;
+  }
+
+
+  .jumbotron {
+    width:50%;
+    height: auto;
+    background-color:#01AEBF;
+    padding:10px;
+    margin:10px;
+    opacity: 0.7;
+
+  }
+
+  form {
+    width: 360px;
+    /*text-align: center;*/
+    /*margin: auto;*/
+    font-size: 15px;
+  }
+
+
+  .btn {
+    margin-top: 10px;
+    margin-right: 4px;
+  }
